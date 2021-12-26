@@ -1,0 +1,11 @@
+.valid{
+    border-color: #198754 !important;
+}
+.not_valid{
+    border-color: #dc3545 !important;
+    
+}
+.form-control{
+    outline: none;
+    box-shadow: none !important;
+}

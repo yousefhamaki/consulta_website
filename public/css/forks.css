@@ -1,0 +1,60 @@
+.law_section{
+    background-color: #012263 !important;
+}
+.container_value>h2{
+    color: #012263 !important;
+}
+.search_area button{
+    background-color: #012263 !important;
+    border: 1px outset #012263 !important;
+}
+.law_value,
+.option_option{
+    position: relative;
+    height: max-content;
+}
+.law_value>.value_area{
+    border: 1px solid #ddd;
+    padding: 5px;
+    height: 100%;
+    margin: 0;
+}
+.value_area h3{
+    font-size: 20px;
+}
+.law_value span{
+    position: absolute;
+    top: 13px;
+    left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    transform: rotate(90deg);
+}
+.table-striped > .option_option:nth-of-type(odd){
+    background-color: #f2f2f2;
+    color: var(--bs-table-striped-color);
+}
+.table-striped{
+    display: none;
+    width: 100%;
+}
+.option_option h3{   
+    font-size: 15px;
+}
+.option_option{
+    padding: 5px;
+}
+.open{
+    display: inline-block !important;
+}
+.rotat{
+    transform: rotate(0deg) !important;
+}
+.value_area a,
+.option_option a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}

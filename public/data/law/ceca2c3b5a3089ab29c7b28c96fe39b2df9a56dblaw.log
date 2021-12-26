@@ -1,0 +1,20 @@
+﻿2021-06-01 23:11:17> Program: Starting Squirrel Updater: --createShortcut=WhatsApp.exe
+2021-06-01 23:11:17> ApplyReleasesImpl: About to create shortcuts for WhatsApp.exe, rootAppDir C:\Users\Hamaki\AppData\Local\WhatsApp
+2021-06-01 23:11:17> ApplyReleasesImpl: Creating shortcut for WhatsApp.exe => C:\Users\Hamaki\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\WhatsApp\WhatsApp.lnk
+2021-06-01 23:11:17> ApplyReleasesImpl: About to save shortcut: C:\Users\Hamaki\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\WhatsApp\WhatsApp.lnk (target C:\Users\Hamaki\AppData\Local\WhatsApp\WhatsApp.exe, workingDir C:\Users\Hamaki\AppData\Local\WhatsApp\app-2.2119.6, args , toastActivatorCSLID 00b449ef-45ee-5182-a406-2e2896092eab)
+2021-06-01 23:11:17> ApplyReleasesImpl: Creating shortcut for WhatsApp.exe => C:\Users\Hamaki\Desktop\WhatsApp.lnk
+2021-06-01 23:11:17> ApplyReleasesImpl: About to save shortcut: C:\Users\Hamaki\Desktop\WhatsApp.lnk (target C:\Users\Hamaki\AppData\Local\WhatsApp\WhatsApp.exe, workingDir C:\Users\Hamaki\AppData\Local\WhatsApp\app-2.2119.6, args , toastActivatorCSLID 00b449ef-45ee-5182-a406-2e2896092eab)
+2021-06-01 23:11:17> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+2021-06-01 23:11:17> ApplyReleasesImpl: Examining Pin: Microsoft Edge.lnk
+2021-06-02 00:59:01> Program: Starting Squirrel Updater: --checkForUpdate https://web.whatsapp.com/desktop/windows/release/x64?version=2.2119.6
+2021-06-02 00:59:01> Program: Fetching update information, downloading from https://web.whatsapp.com/desktop/windows/release/x64?version=2.2119.6
+2021-06-02 00:59:01> CheckForUpdateImpl: Generated new staging user ID: 9ee9eca0-e8f5-557f-b8c3-8c6d925eaaa7
+2021-06-02 00:59:01> CheckForUpdateImpl: Downloading RELEASES file from https://web.whatsapp.com/desktop/windows/release/x64?version=2.2119.6
+2021-06-02 00:59:02> FileDownloader: Downloading url: https://web.whatsapp.com/desktop/windows/release/x64/RELEASES?version=2.2119.6&id=WhatsApp&localVersion=2.2119.6&arch=amd64
+2021-06-02 00:59:02> CheckForUpdateImpl: hwhat, local version is greater than remote version
+2021-06-02 00:59:06> Program: Starting Squirrel Updater: --checkForUpdate https://web.whatsapp.com/desktop/windows/release/x64?version=2.2119.6
+2021-06-02 00:59:06> Program: Fetching update information, downloading from https://web.whatsapp.com/desktop/windows/release/x64?version=2.2119.6
+2021-06-02 00:59:06> CheckForUpdateImpl: Using existing staging user ID: 9ee9eca0-e8f5-557f-b8c3-8c6d925eaaa7
+2021-06-02 00:59:06> CheckForUpdateImpl: Downloading RELEASES file from https://web.whatsapp.com/desktop/windows/release/x64?version=2.2119.6
+2021-06-02 00:59:06> FileDownloader: Downloading url: https://web.whatsapp.com/desktop/windows/release/x64/RELEASES?version=2.2119.6&id=WhatsApp&localVersion=2.2119.6&arch=amd64
+2021-06-02 00:59:07> CheckForUpdateImpl: hwhat, local version is greater than remote version

@@ -1,0 +1,175 @@
+.container_value{
+    margin-top: 70px;
+    direction: rtl;
+}
+.container{
+    text-align: center;
+    max-width: 700px;
+}
+.phone_input{
+    width: calc(100% - 150px) !important;
+}
+#country_code{
+    width: 140px;
+    text-align: center;
+}
+.input_area{
+    background-color: #540259;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.input_area input,
+.input_area textarea{
+    width: 100%;
+    height: 50px;
+    background-color: #540259;
+    border: 2px solid white;
+    border-radius: 10px;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+::placeholder{
+    color: white;
+    opacity: 1;
+}
+.gender_area{
+    direction: ltr;
+}
+.input_area select{
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #540259;
+    border: 2px solid white;
+    color: white;
+}
+textarea{
+    min-height: 200px;
+}
+button{
+    display: block;
+    margin: auto;
+    border-radius: 30px;
+    padding: 0 25px;
+    background-color: #540259;
+    color: white;
+    border: 2px solid white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.submit{
+    width: max-content;
+    margin: 20px auto;
+    padding: 5px;
+    background-color: #540259;
+    border-radius: 30px;
+    position: relative;
+    cursor: pointer;
+}
+.blur{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #0000007d;
+    border-radius: 30px;
+    cursor: not-allowed;
+}
+.servies_type{
+    width: max-content;
+    direction: ltr;
+    display: inline-block;
+    cursor: pointer;
+}
+.servies_type img{
+    width: 100px;
+}
+.servies_logo{
+    padding: 15px;
+    font-size: 30px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    border: 5px solid #540259;
+    width: max-content;
+    margin: auto;
+}
+.type_area{
+    display: flex;
+    margin-top: 55px;
+    justify-content: space-around;
+}
+.gender_area{
+    display: flex;
+    justify-content: space-around;
+    margin: 25px;
+    font-size: 20px;
+    width: 80%;
+    margin: 25px auto;
+}
+.type{
+    font-size: 20px;
+    font-weight: bold;
+}
+.servies_logo i{
+    color: #540259;
+}
+.option_chooses_form{
+    position: fixed;
+    width: 80%;
+    max-width: 650px;
+    top: 100px;
+    left: 10%;
+    right: 10%;
+    background-color: #fffffff2;
+    border: 2px solid #530258;
+    padding: 15px;
+    z-index: 1000000;
+    box-shadow: 5px 5px 3px 0px black;
+}
+@media (min-width: 800px){
+    .option_chooses_form{
+        left: calc((100% - 650px) / 2);
+    }
+}
+hr{
+    width: 90%;
+    margin: auto;
+    color: #57045c;
+    height: 2px;
+}
+.time_form{
+    direction: rtl;
+    padding: 16px;
+}
+.time_form select{
+    width: 60%;
+    text-align: center;
+    padding: 5px;
+    background-color: #540259;
+    color: white;
+    border-radius: 5px;
+}
+.salary_area{
+    color: white;
+    direction: rtl;
+}
+.salary_value{
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.exit_button{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 5px 10px;
+    background-color: #540259;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}

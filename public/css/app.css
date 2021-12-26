@@ -1,0 +1,29 @@
+.lang_list{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: white;
+}
+.lang_list li {
+    display: inline-block;
+    margin: 5px;
+}
+.navbar-collapse{
+    direction: rtl;
+}
+.alert{
+    position: fixed;
+    top: 75px;
+    left: 50px;
+}
+td img{
+    width: 75px;
+    border-radius: 5px;
+}
+.lang_list li a{
+    color: black;
+}
